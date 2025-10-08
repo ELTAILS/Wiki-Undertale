@@ -8,6 +8,10 @@
 
 header {
     background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 .header{
@@ -61,4 +65,45 @@ body {
 hr {
     background-color: #fff;
     height: 0.5rem;
+}
+
+/* footer */
+
+.footer {
+    background-color: #333;
+    padding: 2rem;
+    color: #fff;
+}
+
+.footerMenu{
+    display: grid;
+    grid-template-columns: 20% 40% 43%;
+}
+
+.navFooter ul{
+    list-style: none;
+}
+
+.navFooter ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.3rem;
+}
+
+.navFooter ul li a:hover{
+    color: yellow;
+}
+
+.avisoFooter, .agradecimentoFooter {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.direitosFooter {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 2rem;
 }

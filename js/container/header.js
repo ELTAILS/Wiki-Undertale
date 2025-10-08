@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded",function () {
             </div>
 
         </div>
-    </header>
-    <hr>
+        <hr>
+    </header> 
     `;
     document.body.insertAdjacentHTML("afterbegin",header);
 });
