@@ -27,7 +27,7 @@ body {
 
 .header .logoHeader img {
     width: 150px;
-    height: 150px;
+    height: 125px;
 }
 
 .header .logoHeader {
@@ -106,4 +106,56 @@ hr {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     margin-top: 2rem;
+}
+
+.mensagemP, .mensagemH1, .mensagemH2{
+    font-family: 'Press Start 2P', monospace;
+    background-color: #000;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+menu {
+    width: 1000px;
+    margin: auto;
+}
+
+.imgHome img {
+    width: 400px;
+}
+
+.imgHome {
+    text-align: center;
+    color: #fff;
+}
+
+.mensagemH1{
+    text-decoration: underline;
+    color: #bebebe;
+}
+
+.mensagemP {
+    color: #fff;
+    text-align: justify;
+}
+
+.mensagemH1:hover {
+    color: #fff;
+}
+
+.introducaoHome {
+    text-align: justify;
+}
+
+.videoHome {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.mensagemH2 {
+    color: #fff;
 }

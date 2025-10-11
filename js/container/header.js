@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded",function () {
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#">Personagens</a></li>
                         <li><a href="#">Boss</a></li>
-                        <li><a href="#">Armas</a></li>
+                        <li><a href="#">Itens</a></li>
                         <li><a href="#">Rotas</a></li>
                     </ul>
                 </nav>
