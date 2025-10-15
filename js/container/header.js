@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded",function () {
     const header = `
-    <header>
+    <header id="header">
+
         <div class="header">
 
             <div class="logoHeader">
@@ -24,4 +25,13 @@ document.addEventListener("DOMContentLoaded",function () {
     </header> 
     `;
     document.body.insertAdjacentHTML("afterbegin",header);
+});
+
+document.addEventListener('DOMContentLoaded',() => {
+    const btnHeader = document.getElementById('btnHeader');
+    const header = document.getElementById('header');
+
+    btnHeader.addEventListener('click', () => {
+        header.classList.toggle('aberto');
+    });
 });
