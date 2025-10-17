@@ -4,18 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="> creator: Wagner da silva junior | Este projeto é uma recriação *não oficial* inspirada no jogo **Undertale**, de **Toby Fox**.  ">
-    <meta http-equiv="Permissions-Policy" content="compute-pressure=()">
+    <!--Links-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
     <title>Wiki Undertale | HOME</title>
 </head>
-<body>
-
-    <button id="btnHeader">
-        <i class="fa-solid fa-bars"></i>
-    </button>
+<body>   
 
     <main>
 
@@ -25,7 +21,7 @@
             Olá! seja bem vindo ao site Wiki undertale!
             </h1>
 
-            <p class="mensagemP">Em 15 de setembro undertale completou 10 anos! então venha conhecer esse mundo incrivel! ou você já é um fã e só está aqui para ver se ta tudo em ordem né?</p>7             <div class="imgHome"><img src="img/home/aniversario.png" alt="aniversario-10-anos"></div>
+            <p class="mensagemP">Em 15 de setembro undertale completou 10 anos! então venha conhecer esse mundo incrivel! ou você já é um fã e só está aqui para ver se ta tudo em ordem né?</p><div class="imgHome"><img src="img/home/aniversario.png" alt="aniversario-10-anos"></div>
 
             <div class="introducaoHome">
                 <p class="mensagemP">Undertale se passa em um reino subterrâneo chamado Underground, onde monstros foram confinados depois de uma guerra contra os humanos.</p>
@@ -39,7 +35,12 @@
                 <h1 class="mensagemH1">Introdução do jogo em pt-br :)</h1>
 
                 <div class="videoHome">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/K6-ep-Goie8?si=eIcJ8t-vRgRqCgub" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="videoWrapper">
+                        <div class="videoThumbnail" id="playVideo">
+                        <img src="img/home/video_introdução.png" alt="Assistir introdução Undertale">
+                        <button class="btnPlay">▶ Assistir</button>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -68,7 +69,8 @@
     </main>
 
     <!--Script-->
-    <script src="js/container/header.js"></script>
-    <script src="js/container/footer.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/videoHome.js"></script>
 </body>
 </html>

@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded",function () {
                     <nav>
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Personagens</a></li>
-                            <li><a href="#">Boss</a></li>
-                            <li><a href="#">Itens</a></li>
-                            <li><a href="#">Rotas</a></li>
+                            <li><a href="personagens.html">Personagens</a></li>
+                            <li><a href="boss.html">Boss</a></li>
+                            <li><a href="itens.html">Itens</a></li>
+                            <li><a href="rotas.html">Rotas</a></li>
                         </ul>
                     </nav>
                 </div>

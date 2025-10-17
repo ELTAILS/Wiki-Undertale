@@ -73,4 +73,37 @@
     #header {
         display: none;
     }
+
+    .cardPersonagens {
+        display: block;
+        padding: 2rem 1.5rem;
+        margin: 2rem auto;
+    }
+
+    .cardImg img {
+        max-width: 90%;
+        margin-bottom: 1.5rem;
+    }
+
+    .cardConteudo h2 {
+        font-size: 1.5rem;
+    }
+
+    .cardConteudo p {
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cardPersonagens {
+        padding: 1.5rem 1rem;
+    }
+
+    .cardConteudo p {
+        font-size: 0.95rem;
+        line-height: 1.4rem;
+    }
 }
